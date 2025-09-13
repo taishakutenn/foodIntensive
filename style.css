@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+header {
+    height: 125px;
+}
+
+.header-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 100px;
+}
+
+.container {
+    height: 100%;
+    max-width: 1230px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    height: 153px;
+}
+
+.footer-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-navigation {
+    flex-grow: 1;
+}
+
+.social-networks-img {
+    width: 25px;
+    height: 25px;
+}
